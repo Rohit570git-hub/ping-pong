@@ -87,9 +87,9 @@ $(document).ready(function(){
         var winner = "";
         if(player.score === 3 || computer.score === 3){
             if(player.score === 3){
-                winner = "Computer";
+                winner = "Player";
             }else{
-                winner = "Player"
+                winner = "Computer"
             }
             clearInterval(gameLoop);
             $(document).off();
